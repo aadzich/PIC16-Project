@@ -1,6 +1,6 @@
 # PIC16-Project
 pic 16b final project
 
-x . .
+x o .
 o o x
 x . .

@@ -2,5 +2,5 @@
 pic 16b final project
 
 x . .
-o o .
+o o x
 x . .

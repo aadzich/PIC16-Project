@@ -3,4 +3,4 @@ pic 16b final project
 
 x . .
 . O .
-. . .
+x . .

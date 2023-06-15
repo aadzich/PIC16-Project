@@ -9,6 +9,6 @@
   Finally, a user can run or modify our established Keras sequential models and perform feature training, and reach final conclusions on their model's ability to accurately predict delinquent loans.
 
 # Files Descriptions
-functs.py					function package, imported in our main notebook
-delq_loan_ machine_learning.ipynb		primary notebook file modeling over/undersampling
-preliminary_data_exploration.ipynb		initial code exploring correlations and resampling methods
+*functs.py* (function package, imported in our main notebook) \
+*delq_loan_ machine_learning.ipynb* (primary notebook file modeling over/undersampling) \
+*preliminary_data_exploration.ipynb* (initial code exploring correlations and resampling methods)

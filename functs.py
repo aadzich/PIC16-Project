@@ -107,3 +107,23 @@ def history_graph(history, metric):
   plt.legend(loc='lower right')
   plt.title(f'Training and Validation {metric}')
 
+def categorize_credit_score(df,credit_column):
+  """
+  This function takes a dataframe input, as well as a column name for categorizing
+  credit score in a meaningful way
+  """
+  conditions =[(df[credit_column]>=800),
+            (df[credit_column]<800) &(df[credit_column]>=740),
+            (df[credit_column]<740) &(df[credit_column]>=670),
+            (df[credit_column]<670) &(df[credit_column]>=580),
+            (df[credit_column]<580) &(df[credit_column]>=300)]
+  values=['Excellent','Very good','Good','Fair','Poor']
+  df['credit_score_category']=np.select(conditions, values)
+
+def sort_alph(df,column_name):
+  """
+  this is a simple function that takes a dataframe and column name input and
+  sorts the dataframe by the given column, returning a sorted df
+  """
+  return df.sort_values(by=[column_name])
+

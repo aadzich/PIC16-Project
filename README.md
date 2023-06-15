@@ -1,4 +1,5 @@
-# PIC16-Project
+## PIC16-Project: Predicting Delinquent Mortgage Loans
+# Overview
   This project works with HELOC (Home Equity Line of Credit) loans and aims to predict borrower delinquency behavior based on features such as property type or FICO credit score. As a lender, two of the greatest potential risks when issuing a loan are prepayment and delinquency. After analyzing our given data, we decided to focus on predicting delinquency. Delinquent loans occur when a payment is not made by a specified date, and can turn into a default, when the payment is late past a certain amount of days and converts to debt. 
 	This github includes Python code for importing loan data and creating a local SQL database to then perform meaningful analysis on predicting delinquency, including machine learning models and visualizations.
 
